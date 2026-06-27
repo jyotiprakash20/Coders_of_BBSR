@@ -1,0 +1,29 @@
+Sliding window problem
+- Longest substring without repeating characters
+- Maximum sum subarray of size K
+- Longest substring with K distinct characters
+- Minimum window substring
+- Fruits into baskets
+
+Maximum Sum Subarray of Size K
+First Negative Integer in Every Window of Size K
+Longest Substring Without Repeating Characters
+Longest Substring with K Distinct Characters
+Fruits Into Baskets
+Minimum Size Subarray Sum
+Find All Anagrams in a String
+Sliding Window Maximum (Deque)
+
+Step	Problem	Difficulty
+✅ 1	Maximum Sum Subarray of Size K	Easy
+✅ 2	First Negative in Every Window	Easy
+✅ 3	Maximum Vowels	Easy
+✅ 4	Longest Substring Without Repeating Characters	Medium
+✅ 5	Longest Repeating Character Replacement	Medium
+✅ 6	Longest Substring with K Distinct	Medium
+✅ 7	Fruits Into Baskets	Medium
+✅ 8	Minimum Size Subarray Sum	Medium
+✅ 9	Find All Anagrams	Medium
+✅ 10	Permutation in String	Medium
+✅ 11	Sliding Window Maximum	Hard
+✅ 12	Minimum Window Substring	Hard
