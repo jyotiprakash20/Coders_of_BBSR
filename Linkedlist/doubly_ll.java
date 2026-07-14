@@ -162,6 +162,21 @@ public class doubly_ll {
         temp.back = temp.next = null;
 
     }
+    //Reverse a DLL
+    private static Node reverseDll(Node head){
+        if (head == null || head.next == null){
+            return head;
+        }
+        Node prev = null;
+        Node current = head;
+        while(current != null){
+            prev = current.back;
+            current.back = current.next;
+            current.next = prev;
+            current = current.back;
+        }
+        return prev.back;
+    }
     public static void main(String[] args) {
         int[] arr = {2,5,7,1};
         Node head = convertarrtoDll(arr);
@@ -172,7 +187,8 @@ public class doubly_ll {
         // head = deleteHead(head);//Delete the head
         // head = deleteTail(head);//Delete the tail
         // head = deleteKelement(head, 2);//Delete the kth element
-        deleteNode(head.next.next);//Delete the Node
+        // deleteNode(head.next.next);//Delete the Node
+        // head = reverseDll(head);//Reverse a linked list
         print(head);
         
     }
